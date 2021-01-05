@@ -21,7 +21,7 @@ public class MemberServiceTest {
     MemberRepository memberRepository;
 
     @Test
-    public void joinTest() throws Exception {
+    public void joinTest() {
         //given
         Member member = new Member();
         member.setName("Kim");
